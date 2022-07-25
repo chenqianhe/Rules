@@ -14,7 +14,7 @@
 <footer>
 ```
 
-### **Header**
+## **Header**
 
 该部分仅书写一行，包括三个字段，分别是type、scope和subject。
 
@@ -44,27 +44,27 @@ subject 用于说明 commit 的细节描述。文字一定要精简精炼，同�
 * 首个字母不能大写
 * 结尾不能存在句号(.)
 
-### **Body**
+## **Body**
 
 这部分是对本次提交的详细描述，可以分成多行。
 
 * 使用第一人称现在时，比如使用 change 而不是 changed 或者 changes
 * 说明代码变更的动机，以及和以前代码的对比
 
-### Footer
+## Footer
 
 只有两种情况：&#x20;
 
 1. 不兼容变动：所有不兼容变动应该被列为不兼容变动块放在信息尾部，应该以“BREAKING CHANGE:”开始，后面是对变动的描述，以及变动的动机和迁移方法&#x20;
 2. 引用讨论：如果当前提交是针对某个讨论，那么可以在尾部关闭这个讨论 Closes #234 或者同时关闭多个讨论 Closes #123, #245, #992
 
-### 完全的提交示例：
+## 完全的提交示例
 
 ```bash
 git commit -m "fix(core): 修复了内核的一个xx bug" -m "此次修复了之前一直导致系统不稳定的问题" -m "关闭issue xx"
 ```
 
-### 使用git-cz
+## 使用git-cz
 
 {% embed url="https://github.com/commitizen/cz-cli" %}
 
