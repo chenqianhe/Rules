@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rules](README.md)
+* [工程化基础编程规范](README.md)
   * [Common Rules](readme/common-rules/README.md)
     * [\[Angular\] Git Commit Rule](readme/common-rules/angular-git-commit-rule.md)
     * [Git Commit Rule](readme/common-rules/git-commit-rule.md)
