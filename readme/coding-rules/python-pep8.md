@@ -4,7 +4,11 @@
 PEP8
 {% endembed %}
 
-### 部分核心内容参考如下
+## 使用方法
+
+现在各种编辑器都有对应插件，搜索安装PEP8规范插件即可。
+
+## 部分核心内容参考如下
 
 {% file src="../../.gitbook/assets/Python编程语言PEP8规范.pdf" %}
 
