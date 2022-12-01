@@ -8,6 +8,10 @@ PEP8
 
 现在各种编辑器都有对应插件，搜索安装PEP8规范插件即可。
 
+{% embed url="https://black.readthedocs.io/en/stable/" %}
+
+可以借助 Black 实现代码格式化。
+
 ## 部分核心内容参考如下
 
 {% file src="../../.gitbook/assets/Python编程语言PEP8规范.pdf" %}
